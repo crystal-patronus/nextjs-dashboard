@@ -66,7 +66,7 @@ export default function Form({ customers }: { customers: CustomerField[] }) {
                 name="amount"
                 type="number"
                 step="0.01"
-                aria-describedby="amount_error"
+                aria-describedby="amount-error"
                 placeholder="Enter USD amount"
                 className="peer block w-full rounded-md border border-gray-200 py-2 pl-10 text-sm outline-2 placeholder:text-gray-500"
               />
@@ -90,7 +90,7 @@ export default function Form({ customers }: { customers: CustomerField[] }) {
             Set the invoice status
           </legend>
           <div className="rounded-md border border-gray-200 bg-white px-[14px] py-3">
-            <div className="flex gap-4" aria-describedby="status_error">
+            <div className="flex gap-4" aria-describedby="status-error">
               <div className="flex items-center">
                 <input
                   id="pending"
