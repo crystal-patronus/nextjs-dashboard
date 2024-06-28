@@ -1,4 +1,4 @@
-## Next.js Dashboard Example
+## Next.js Dashboard
 
 This is the completed source code for the Next.js App Router Course. It contains the code for the dashboard application.
 
